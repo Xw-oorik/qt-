@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>441</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <widget class="QToolButton" name="n6">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>20</y>
+       <width>121</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>21</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>新菜单</string>
+     </property>
+     <property name="autoRaise">
+      <bool>false</bool>
+     </property>
+     <property name="arrowType">
+      <enum>Qt::NoArrow</enum>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="n5">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>20</y>
+       <width>131</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>新2</string>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="n4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>111</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>新1</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="widget_2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>100</y>
+      <width>211</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <widget class="QToolButton" name="n3">
+     <property name="geometry">
+      <rect>
+       <x>9</x>
+       <y>90</y>
+       <width>191</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>菜单</string>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="n2">
+     <property name="geometry">
+      <rect>
+       <x>9</x>
+       <y>144</y>
+       <width>161</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>等待</string>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="n1">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>141</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>你好世界</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>100</y>
+      <width>121</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>周末</string>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QRadioButton" name="r1">
+       <property name="text">
+        <string>吃饭</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="r2">
+       <property name="text">
+        <string>睡觉</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="r3">
+       <property name="text">
+        <string>打豆豆</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>100</y>
+      <width>111</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>周内</string>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QRadioButton" name="r4">
+       <property name="text">
+        <string>上班</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="r5">
+       <property name="text">
+        <string>摸鱼</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="r6">
+       <property name="text">
+        <string>996</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QGroupBox" name="dianying">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>80</y>
+      <width>191</width>
+      <height>271</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>电影院</string>
+    </property>
+    <widget class="QCheckBox" name="fenlei">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>91</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>分类</string>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="leibie">
+     <property name="geometry">
+      <rect>
+       <x>29</x>
+       <y>49</y>
+       <width>121</width>
+       <height>171</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <item>
+       <widget class="QCheckBox" name="kehuan">
+        <property name="text">
+         <string>科幻</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="aiqing">
+        <property name="text">
+         <string>爱情</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="xiju">
+        <property name="text">
+         <string>喜剧</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
